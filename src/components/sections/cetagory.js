@@ -100,7 +100,7 @@ export default function Cetagory() {
     },
   ];
   return (
-    <div className="px-16 py-24 bg-slate-100">
+    <div className="px-16 py-24 bg-[#f8f6f6]">
       <div className="text-2xl font-semibold flex border-b-2 mb-8  justify-between">
         <h1 className="border-b-2 border-gray-300">TRENDING CATEGORY</h1>
         <h1>Browse all {">"}</h1>
