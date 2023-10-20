@@ -1,17 +1,20 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Navbar from '@/components/navbar'
-import Cetagory from '@/components/sections/cetagory'
-import Footer from '@/components/footer'
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import FooterDescription from "@/components/footerDesc";
+import Slider from "@/components/slider";
+import PopularCategories from "@/components/popularCategories";
 
-const inter = Inter({ subsets: ['latin'] })
+import Cetagory from "@/components/sections/cetagory";
 
 export default function Home() {
   return (
-    <div className=''>
-      <Navbar/>
-      <Cetagory/>
-      <Footer/>
+    <div className="">
+      <Navbar />
+      <Slider />
+      <Cetagory />
+      <PopularCategories />
+      <FooterDescription />
+      <Footer />
     </div>
-  )
+  );
 }
