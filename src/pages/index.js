@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import FooterDescription from "@/components/footerDesc";
 import Slider from "@/components/slider";
+import PopularCategories from "@/components/popularCategories";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function Home() {
     <div className="">
       <Navbar />
       <Slider />
+      <PopularCategories />
       <FooterDescription />
       <Footer />
     </div>

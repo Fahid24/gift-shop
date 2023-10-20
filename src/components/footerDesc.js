@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsWhatsapp, BsTiktok, BsInstagram, BsFacebook } from "react-icons/bs";
 export default function FooterDescription() {
   return (
-    <div className="py-12  lg:px-16">
+    <div className="py-20  lg:px-16">
       <div className="lg:grid grid-cols-3 lg:gap-10 ">
         <div>
           <h2 className=" font-semibold mb-2">About the Company</h2>
@@ -57,12 +57,28 @@ export default function FooterDescription() {
         </div>
 
         <div>
-          <h3>Social Media</h3>
-          <div className="flex gap-5 mt-2 text-2xl">
-            <BsFacebook className="text-sky-700" />
-            <BsInstagram className="text-red-500 " />
-            <BsTiktok />
-            <BsWhatsapp className="text-green-500" />
+          <div>
+            <h3 className="font-semibold">Social Media</h3>
+            <div className="flex gap-5 mt-2 text-2xl">
+              <BsFacebook className="text-sky-700" />
+              <BsInstagram className="text-red-500 " />
+              <BsTiktok />
+              <BsWhatsapp className="text-green-500" />
+            </div>
+          </div>
+          <div className="mt-5">
+            <h3 className="font-semibold">Payment Excepted By</h3>
+            <div className="flex gap-2 mt-2 ">
+              <p className=" px-3 border border-pink-500 text-pink-500  rounded">
+                Bkash
+              </p>
+              <p className="border px-3 border-purple-500  text-purple-500 rounded">
+                Rocket
+              </p>
+              <p className="border px-3 border-sky-500 text-sky-500  rounded">
+                Bank
+              </p>
+            </div>
           </div>
         </div>
       </div>

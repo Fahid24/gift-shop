@@ -4,9 +4,9 @@ import { FaBars } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="px-16 pt-5  bg-sky-500 text-white ">
+    <nav className="px-16 pt-5  bg-sky-500 text-white sticky top-0 z-50">
       <div className="grid grid-cols-11">
-        <h1 className="col-span-2 border">Logo Here</h1>
+        <h1 className="col-span-2 border mr-2 italic">Logo Here</h1>
         <div className="col-span-6 flex justify-center">
           <input
             type="text"
