@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsWhatsapp, BsTiktok, BsInstagram, BsFacebook } from "react-icons/bs";
 export default function FooterDescription() {
   return (
-    <div className="py-20  lg:px-16">
+    <div className="py-20  lg:px-16 ">
       <div className="lg:grid grid-cols-3 lg:gap-10 ">
         <div>
           <h2 className=" font-semibold mb-2">About the Company</h2>
