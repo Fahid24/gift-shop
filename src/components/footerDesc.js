@@ -1,6 +1,10 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { BsWhatsapp, BsTiktok, BsInstagram, BsFacebook } from "react-icons/bs";
+import {BiLogoMastercard} from "react-icons/bi"
+import {RiVisaFill} from "react-icons/ri"
+import {BsPaypal} from "react-icons/bs"
+
 export default function FooterDescription() {
   return (
     <div className="py-20  lg:px-16 ">
@@ -67,19 +71,13 @@ export default function FooterDescription() {
             </div>
           </div>
           <div className="mt-5">
-            <h3 className="font-semibold">Payment Excepted By</h3>
-            <div className="flex gap-2 mt-2 ">
-              <p className=" px-3 border border-pink-500 text-pink-500  rounded">
-                Bkash
-              </p>
-              <p className="border px-3 border-purple-500  text-purple-500 rounded">
-                Rocket
-              </p>
-              <p className="border px-3 border-sky-500 text-sky-500  rounded">
-                Bank
-              </p>
-            </div>
-          </div>
+               <h2 className='text-md mb-2 font-semibold'>Accepted Payment Methods</h2>
+                <div className='flex items-center gap-4'>
+                    <RiVisaFill color='green' size={40}/>
+                    <BiLogoMastercard color='red' size={40}/>
+                    <BsPaypal color='blue' size={40}/>
+                </div>
+               </div>
         </div>
       </div>
     </div>

@@ -1,13 +1,18 @@
+import Image from "next/image";
 import React from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="px-16 pt-5  bg-sky-500 text-white sticky top-0 z-50">
+    <nav className="px-16 pt-5 font-semibold text-md bg-sky-500 text-white sticky top-0 z-50">
       <div className="grid grid-cols-11">
-        <h1 className="col-span-2 border mr-2 italic">Logo Here</h1>
-        <div className="col-span-6 flex justify-center">
+        <Image  src="/assets/11817413_4852466-removebg-preview (1).png"
+        alt="logo Image"
+        width={500} 
+        height={100}  
+        className="  col-span-2  italic" />
+        <div className="col-span-6 ml-6 flex justify-center">
           <input
             type="text"
             placeholder="Search for products..."
@@ -23,7 +28,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex justify-between ">
-        <li className=" flex items-center gap-4 py-4">
+        <li className=" flex items-cente gap-4 py-4">
           <FaBars size={20} />
           Categories
         </li>
